@@ -1,0 +1,20 @@
+How to load large (>1GB) files into MySQL (CloudSQL) from python without a broken pipe
+breaking pandas df into chunks and loading that way
+also specifying df data types to cut memory allocation by (insert percentage (orinal was 11GB
+
+
+
+# my high level to not go through the process of reading the data or inserting it into cloud if it's already in the database
+# how to do that.... could read the last entry int the cloud sql and if that equals the last row in the pandas one AND the row count of both are the same then we can just skip the whole process - else if row count is 0 then add the records?
+
+# what question do i want to answer with this data?
+# at this point i have Reviews/Ratings and Titles
+# does having a movie present on IMDB with more languages correlate to a higher rating?
+# then do a bar chart or plot chart with one axis being number of languages and the other axis being rating
+
+# first need to load in the titles  akas ts to cloudsql
+# should write a clear funciton to check for presence of that tabel first
+
+# i want to not load teh pds if the sql table already has information in them
+# i could just rename this file to load_imdb_data
+# then i could ccreate eh other scropt to be more of analysis))
