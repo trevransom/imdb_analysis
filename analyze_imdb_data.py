@@ -25,9 +25,9 @@ import dash_html_components as html
 from dash.dependencies import Input, Output
 
 config = {
-    'user': 'root',
-    'password': 'xN#DfQ3a693o',
-    'host': '35.228.161.110',
+    'user': '---',
+    'password': '----',
+    'host': '----',
     'client_flags': [ClientFlag.SSL],
     'ssl_ca': '../keys/server-ca.pem',
     'ssl_cert': '../keys/client-cert.pem',

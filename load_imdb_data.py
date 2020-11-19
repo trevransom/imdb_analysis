@@ -27,9 +27,9 @@ import mysql.connector as sql
 from mysql.connector.constants import ClientFlag
 
 config = {
-    'user': 'root',
-    'password': 'xN#DfQ3a693o',
-    'host': '35.228.161.110',
+    'user': '----',
+    'password': '----',
+    'host': '----',
     'client_flags': [ClientFlag.SSL],
     'ssl_ca': '../keys/server-ca.pem',
     'ssl_cert': '../keys/client-cert.pem',
